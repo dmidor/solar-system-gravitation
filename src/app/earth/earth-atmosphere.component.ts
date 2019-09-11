@@ -3,14 +3,12 @@ import { GRAVITATION_VALUE_PROVIDER } from '../shared/gravitation-provider';
 import { EarthGravitationService } from './earth-gravitation.service';
 
 @Component({
+  selector: 'app-earth-atmosphere',
   template: `
-      <p>We are on EARTH</p>
-      <app-earth-atmosphere></app-earth-atmosphere>
-  `,
-  providers: [
-    {provide: GRAVITATION_VALUE_PROVIDER, useClass: EarthGravitationService}
-  ]
+      <p>We are inside atmosphere</p>
+      <app-gravitation-sensor></app-gravitation-sensor>
+  `
 })
-export class EarthPlaneComponent {
+export class EarthAtmosphereComponent {
 
 }
