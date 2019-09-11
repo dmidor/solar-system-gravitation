@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EarthModule } from './earth/earth.module';
 import { JupiterModule } from './jupiter/jupiter.module';
+import { MatIconModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { JupiterModule } from './jupiter/jupiter.module';
     BrowserModule,
     AppRoutingModule,
     EarthModule,
-    JupiterModule
+    JupiterModule,
+    MatIconModule
   ],
   bootstrap: [AppComponent]
 })
