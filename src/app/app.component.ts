@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
       <a routerLink="">home</a> |
-      <a routerLink="text">text</a> |
-      <a routerLink="voice">voice</a>
+      <a routerLink="earth">earth</a> |
+      <a routerLink="jupiter">jupiter</a>
       <router-outlet></router-outlet>
   `
 })

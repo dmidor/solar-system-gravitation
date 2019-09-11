@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TextModule } from './text/text.module';
-import { VoiceModule } from './voice/voice.module';
+import { EarthModule } from './earth/earth.module';
+import { JupiterModule } from './jupiter/jupiter.module';
 
 @NgModule({
   declarations: [
@@ -13,8 +13,8 @@ import { VoiceModule } from './voice/voice.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    VoiceModule,
-    TextModule
+    EarthModule,
+    JupiterModule
   ],
   bootstrap: [AppComponent]
 })

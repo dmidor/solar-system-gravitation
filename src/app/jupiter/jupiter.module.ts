@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from '../shared/shared.module';
-import { TextReaderPageComponent } from './text-reader-page.component';
+import { JupiterPlanetComponent } from './jupiter-planet.component';
 
 @NgModule({
-  declarations: [TextReaderPageComponent],
+  declarations: [JupiterPlanetComponent],
   imports: [
     CommonModule,
     SharedModule
   ],
-  exports: [TextReaderPageComponent]
+  exports: [JupiterPlanetComponent]
 })
-export class TextModule {
+export class JupiterModule {
 }

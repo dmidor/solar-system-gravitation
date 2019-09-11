@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ReaderComponent } from './reader.component';
+import { GravitationSensorComponent } from './gravitation-sensor.component';
 
 @NgModule({
-  declarations: [ReaderComponent],
+  declarations: [GravitationSensorComponent],
   imports: [
     CommonModule
   ],
   exports: [
-    ReaderComponent
+    GravitationSensorComponent
   ]
 
 })

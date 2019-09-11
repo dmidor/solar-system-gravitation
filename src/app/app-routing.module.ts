@@ -1,22 +1,22 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { TextReaderPageComponent } from './text/text-reader-page.component';
-import { VoiceReaderPageComponent } from './voice/voice-reader-page.component';
+import { EarthPlaneComponent } from './earth/earth-plane.component';
+import { JupiterPlanetComponent } from './jupiter/jupiter-planet.component';
 
 const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: 'text'
+    redirectTo: 'earth'
   },
   {
-    path: 'voice',
-    component: VoiceReaderPageComponent,
+    path: 'earth',
+    component: EarthPlaneComponent,
 
   },
   {
-    path: 'text',
-    component: TextReaderPageComponent
+    path: 'jupiter',
+    component: JupiterPlanetComponent
   }
 
 ];
